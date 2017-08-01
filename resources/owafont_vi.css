@@ -1,0 +1,597 @@
+body, textarea
+{
+	font-family:Segoe UI,Helvetica,Arial,sans-serif;
+	font-size:9.75pt;
+}
+.bld, .ur
+{
+	font-weight:bold;
+}
+.nbMnuItm
+{
+	font-size:9.75pt;
+}
+
+/* Folder Unread font weight */
+.fufw
+{
+	font-weight: bold;
+}
+
+/* Folder font weight when there are no unread items*/
+.fnufw
+{
+	font-weight: normal;
+}
+
+.bld, div.vlv .ur
+{
+	font-weight:bold;
+}
+#divBrandBtns
+{
+	font-size: 100%;
+}
+
+#divConvTopic 
+{
+	font-size:18pt;
+}
+
+#divSender > span,
+/* Sender text in the Date View Meeting pages*/
+#divSn > span,
+/* Sender name in the conversation Reading Pane */
+.divExp > #divExpHdr > .divSn > span
+{
+	font-size: 15pt;
+}
+
+.fbBiu 
+{
+	font-family:Courier New;
+	font-size:17px;
+}
+
+/* Table containing grid of color cells */
+table#tblPckr 
+{
+	font-size:0px;
+}
+
+/* Misc elements that can appear inside of a recipient well */
+.rwW a, .rwW strong, .rwW em, .rwW u 
+{
+	font-weight:normal;
+	font-style:normal;
+}
+
+.dyTms 
+{
+	font-size:xx-small;
+}
+
+/* Week number cell */
+.dpWN 
+{
+	font-size:7.5pt;
+}
+
+/* Freebusy free */
+.fb0 
+{
+	font-weight:normal;
+}
+/* Time strip outer container */
+.timeStripLine
+{
+	font-family: Segoe UI Light,Helvetica,Arial,sans-serif;
+}
+/* Calendar Time Strip Left text */
+.timeStripLeft
+{
+	font-size:15pt;
+}
+
+/* Calendar Time Strip Right text */
+.timeStripRight
+{
+	font-size:8.25pt;
+}
+/* monthly view day name */
+#divMonthlyViewDateName
+{
+	font-family: Segoe UI Light,Helvetica,Arial,sans-serif;
+	font-size: 16.5pt
+}
+/* Day number in calendar view header */
+#spanDayName
+{
+	font-size:14pt;
+}
+
+.calHD
+{
+	font-family: Segoe UI Light,Helvetica,Arial,sans-serif;
+}
+
+.calHDTdy
+{
+	font-family: Segoe UI,Helvetica,Arial,sans-serif;
+}
+
+/* View header (2)*/
+.calHD > #spanDayName,
+.calHDTdy > #spanDayName
+{
+	font-size: 21pt;
+}
+
+/* View header (2)*/
+.calHD > #spanWeekDayName
+{
+	font-size: 13pt;
+}
+
+/* View header (2, today) */
+.calHDTdy > #spanWeekDayName
+{
+	font-size: 13pt;
+}
+
+/* Weekday Header in Calendar month view, Current month name*/
+.weekdayHeader, #divCurrMonth, .currentMonth
+{
+	font-size:13pt;
+	font-family: Segoe UI Light,Helvetica,Arial,sans-serif;
+}
+
+/* Previous/Next month name */
+#divPrevMonth, #divNextMonth
+{
+	font-size:8.25pt;
+	font-family: Segoe UI Light,Helvetica,Arial,sans-serif;
+}
+
+/* Monthly view weekly selector */
+#divWeekNumber
+{
+	font-size: 15pt;
+	font-family: Segoe UI Light,Helvetica,Arial,sans-serif;
+}
+
+/* Calendar events content (line 2 and line 3)*/
+.visLn
+{
+	font-size:8.25pt;
+}
+/* Subject text in visual */
+.visSbj
+{
+	font-weight:bold;
+	font-size: 9.75pt;
+}
+
+/* gh - group header */
+/* Note: tr.gh background color is defined above the selection styles, so 
+that it doesn't override them */
+.tdHdr 
+{
+	font-family:Helvetica, Arial;
+	font-size:160%;
+}
+
+/* read contact titlebar displayname */
+span.nm 
+{
+	font-size:130%;
+	font-weight:bold;
+}
+
+.abArrw 
+{
+	font-family:Courier New;
+}
+
+.mid 
+{
+	font-size:70%;
+}
+
+.tdCopy 
+{
+	font-size:80%;
+}
+
+input#txtcp 
+{
+	font-size:100%;
+	font-family:Helvetica, Tahoma, Arial;
+}
+
+/* Attachment well in read */
+/* Root recipient well div */
+/* Font height div */
+/* Time strip right cell containing decoration */
+/* div container of image and input */
+/* textbox for create new / rename folder */
+/* Folder list 'create new folder' input box */
+/* Logon.css styles */
+select, input, textarea, button, label, pre, 
+div#divTr, .awRW, .rwW, .edtSubj,
+textarea#taAn, table#tblErr, td#tdErrHdCt, div#divFH,
+div#divNFld, div#divRFld, input#txtNFld,
+body.owaLgnBdy 
+{
+	font-size:100%;
+}
+
+/* DL recipient */
+/* Date picker month cell - busy day */
+/* Free/busy tentative/busy/oof */
+/* Subject text in visual */
+/* gh - group header */
+/* Note: tr.gh background color is defined above the selection styles, so 
+that it doesn't override them */
+/* Voice Message Audio Notes td*/
+/* read contact section column */
+/* read contact line under address section header columns */
+/* notification header bold subject text */
+/* AD organization tree person heading */
+/* Title of a section in the form*/
+/* Cell with title of a field in details section */
+/* Cell with title of a field in details section (rtl) */
+/* Section separator cell (with title) */
+/* Date picker month cell - busy day */
+.bld, .ur, .nwItmTxtFrm, span.bld,
+.rwDL, .moSctTxt, .lyt .hdr, .lyt .sugHdr, 
+.dyTms .dy, table#tblDpM td.b, .fb1, .visSbj, tr.gh td, 
+.bold, span#spnPn, table#tblCnts .sct, 
+table#tblCnts .bLn, div#divNtfyItmSb, .adMgHd, .cntTabCT,
+.cntDetPT, body.rtl .cntDetPT, .cntSepT, #spnMbQtUsg, 
+.pvwLabel
+{
+	font-weight:bold;
+}
+
+/* Subject text in Date View Reading Pane */
+.readFormSubjectContainer
+{
+	font-size:18pt;
+}
+
+/* Font color for new value of modified props from meeting update highlight  
+*/
+.fbItalics, span#spnCmpI 
+{
+	font-style:italic;
+}
+
+/* Open as web page link in attachment well */
+.wvsn, .rtl .wvsn 
+{
+	font:normal 85% Helvetica, Tahoma, Sans Serif, Arial;
+}
+
+.errDesc #errMsg, .errHd 
+{
+	font-size:130%;
+}
+
+/* Date picker div -- in drop down mode */
+.dp, .dpDD 
+{
+	font-size:8pt;
+}
+
+/* Address Book and contact multi-line list view styles */
+/* Information column */
+/* Notes text area */
+.mlIL span#abc, .txtBdy, .cntNot 
+{
+	font-size:100%;
+}
+
+.mbqtTxt, input.btn, .btnOnFcs, .btnOnMseOvr, .btnOnMseDwn 
+{
+	font-size:95%;
+}
+
+/* Webready.css */
+.tbWIB, .tbEIB 
+{
+	font:normal 95% Helvetica, Tahoma, Sans Serif, Arial;
+}
+/* User name in the header*/
+.userTileTxt
+{
+	font-size: 11pt;
+}
+
+/* Sign out string in the header*/
+#aLogOff > .userTileTxt
+{
+	font-family: Segoe UI Light,Helvetica,Arial,sans-serif;
+}
+
+#divBrandOrgName
+{
+	font-size: 14pt;
+}
+
+#divBrandOrgLive
+{
+	font-size: 7pt;
+}
+
+/* Live Header Links displayed in Datacenter OWA*/
+.brandBarLink
+{
+	font-size: 10pt;
+}
+
+.rTitleCtn
+{
+	font-family: Helvetica, Tahoma !important; 
+}
+
+.dmpHdr
+{
+	font-family: Helvetica, Arial !important;
+}
+
+.tbNIB
+{
+	font:normal 95% Helvetica, Tahoma, Sans Serif, Arial !important;	
+}
+
+.baseFrm
+{
+	font-family: Helvetica,Tahoma,Arial !important;
+}
+
+.optHvr
+{
+	font-family: Helvetica,Tahoma,Arial !important;
+}
+
+.optDn 
+{
+	font-family: Helvetica,Tahoma,Arial !important;
+}
+
+.optDa
+{
+	font-family: Helvetica,Tahoma,Arial!important;
+}
+
+.colorPickerButton
+{	
+	font-family:Helvetica,Tahoma,Arial !important;
+}
+
+/* Context Menu Span Header*/
+span#spnHdr
+{
+	font-size: 14pt;
+}
+
+/* Subject field in the Reading Pane*/
+#divList #txtSubj
+{
+	font-size: 16pt;
+}
+
+/* Navigation Tree font size*/
+div#divTr,
+/* Buddy list tree font size*/
+div#divTrBddy
+{
+	font-size: 9pt;
+}
+
+/* Group header in the VLV */
+.gbIL > .gh
+{
+	font-family: Segoe UI Light,Helvetica,Arial,sans-serif;
+	font-size: 12pt;
+}
+
+/* Different folder name in an expanded conversarion in the list view */
+.cvIL > .df
+{
+	font-size: 9pt;
+}
+
+/* First Line in the messaging VLV */
+.baseIL > #vr
+{
+	font-size: 9.75pt;
+}
+
+/* Second Line in the messaging VLV */
+.baseIL > #sr
+{
+	font-size: 9pt;
+}
+
+/* Sent date/time label in the conversations reading pane*/
+#spnSent,
+/* Folder names in conversation reading pane */
+.itmPrt #divFs,
+/* Sent field in meeting requests */
+.snt
+{
+	font-size: 7.5pt;
+}
+
+/* Recipient well labels (E.g.: To, From, Cc) */
+.roWellLabel,
+/* Content text of the recipient wells */
+.roWellWrap,
+/* Recipient well content text in message header */
+.roHdrRow,
+/* Recipient well for Categories*/
+.roCatAttWellLabel,
+/* Categories in the recipient well*/
+.spanCatContainer
+{
+	font-size: 8.25pt;
+}
+
+/* VLV Headers ("Arrage By", "Newest on Top", etc )*/
+#divVLV #divHeaders
+{
+	font-size: 7.5pt;
+}
+
+/* Number text in the Header alert buttons*/
+.alertBtnMixed .alertBtnTxt
+{
+	font-size: 24pt;
+	font-weight: bold;
+}
+
+div#divSearch
+{
+	font-size: 9.75pt;
+}
+
+/* Sender name in the collapsed item conversation */
+.divClps .divSn,
+/* Drafts text in a collapsed draft */
+.divClps #divSn span
+{
+	font-size: 12pt;
+}
+
+/* Message content preview in collapsed item conversation */
+.divClps  #divSm,
+/* Date in the collapsed item conversation */
+.divClps > #divDt
+{
+	font-size: 9pt;
+}
+
+/* Group Headers in the tree*/
+#divTr a.trNdGpHd,
+#divTrBddy a.trNdGpHd
+{
+	font-size: 9.75pt;
+}
+
+/* Infobars text */
+#divIB
+{
+	font-size: 9pt;
+}
+
+/*Context menu Large Menu Item text */
+.mnuItmTxtHdr
+{
+	font-size: 13.5pt;
+}
+
+/*Context menu Small Menu Item text */
+.mnuItmTxtItm,
+.mnuItmTxtItmIndented
+{
+	font-size: 9pt;
+}
+
+#spanDate
+{
+	font-size: 13.5pt;
+	font-family: Segoe UI,Helvetica,Arial,sans-serif;
+}	
+
+.todayCell > #divMonthlyViewDateName
+{
+	font-family: Segoe UI,Helvetica,Arial,sans-serif;
+}
+
+/* Accepted/Declined/Tentative/Canceled text in a meeting response/cancellation */
+#divMtgHeaderTxt,
+/* Remove From Calendar link in meeting cancellations*/
+#divMtgCancelLink
+{
+	font-size: 15pt;
+}
+
+#divMtgCancelLink
+{
+	font-family: Segoe UI Light,Helvetica,Arial,sans-serif;
+	font-weight: lighter;	
+}
+
+/* Editable subject in edit mode */
+/* Although this style seems redundant, if we don't set it explicitly here, */
+/* the edit box will have a different font.*/ 
+INPUT#txtSubj
+{
+	font-family: Segoe UI,Helvetica,Arial,sans-serif;
+}
+
+/* Fix E14:261851 Mac FF browse buttons get clipped because they grow with the font size */
+input.fileField
+{
+	font-size: 8.5pt;
+}
+
+/*-------------------------------------------
+  Notification Dialogs
+-------------------------------------------*/
+.notificationsDialogTitle
+{
+	font-size: 13.5pt;
+}
+.notificationsDialogDescription
+{
+	font-size: 9pt;
+}
+.divNotificationsColumn2,
+.divNotificationsColumn3
+{
+	font-size: 9pt;
+}
+.divNotificationsColumn1Row1
+{
+	font-size: 9.75pt;
+}
+.divRemindersDueInTime
+{
+	font-size: 27pt;
+}
+.reminderNow
+{
+	font-size: 9.75pt;
+}
+
+/*-------------------------------------------
+  Chat Window Styles
+-------------------------------------------*/
+#rdArea pre, #compose > #txtArea > #txtBox
+{
+	font-family: Segoe UI,Helvetica,Arial,sans-serif;
+	font-size: 9pt;
+}
+.actBarTxt
+{
+	font-size:8.25pt;
+}
+#prTtl
+{
+	font-size: 8.25pt; /* TODO: remove */
+}
+
+/*-------------------------------------------
+  View Menu Styles
+-------------------------------------------*/
+.vwMnTtl
+{
+	font-size: 13.5pt;
+}
+.vwMnCap
+{
+	font-size: 8.25pt;
+}

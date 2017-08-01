@@ -1,0 +1,207 @@
+/*Copyright (c) 2003-2012 Microsoft Corporation.  All rights reserved.*/
+
+/* styles for errorfe.aspx */
+body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    font-family:'Segoe UI', 'Segoe WP', 'Segoe UI WPC', Tahoma, Arial, sans-serif;
+}
+
+.mouse, .twide 
+{
+    min-width: 650px; /* min iPad1 dimension */
+    min-height: 650px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.mouse .mainContainer, .twide .mainContainer
+{    
+    margin-top:113px;
+    position:relative;
+}
+
+.mouse .owaLogo, .twide .owaLogo
+{    
+    margin-right:88px;
+}
+
+.tnarrow .owaLogo
+{
+    display: none;
+}
+
+.errorMessageContainer
+{
+    display:inline-block;
+}
+
+.rtl .errorMessageContainer
+{
+    direction: rtl;
+    text-align: right;
+}
+
+.mouse .errorMessageContainer, .twide .errorMessageContainer
+{
+    position: absolute;
+    top: -65px;
+    left: 340px;
+}
+
+.tnarrow .errorMessageContainer
+{
+    margin: 26px;
+}
+
+.errorHeader
+{
+    color: #cb5307;
+	font-family:'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI WPC Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+.mouse .errorHeader, .twide .errorHeader
+{
+    font-size: 75px;
+    min-height: 100px;
+}
+
+.tnarrow .errorHeader
+{
+    font-size:26px;
+}
+
+.errorSubHeader
+{
+    color: #cb5307;
+	font-family:'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI WPC Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+.errorSubHeader2
+{
+    color: #0072C6;
+	font-family:'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI WPC Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+.mouse .errorSubHeader, .twide .errorSubHeader
+{
+    font-size: 40px;
+    line-height: 28px;
+}
+
+.tnarrow .errorSubHeader
+{
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.mouse .errorSubHeader2, .twide .errorSubHeader2
+{
+    font-size: 30px;
+    line-height: 55px;
+}
+
+.tnarrow .errorSubHeader2
+{
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.errorDetails
+{
+    color: #666666;
+	font-family:'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI WPC Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+.mouse .errorDetails, .twide .errorDetails, .mouse .diagnosticToggle, .twide .diagnosticToggle
+{
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.tnarrow .errorDetails, .tnarrow .diagnosticToggle
+{
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.mouse .errorDetails, .twide .errorDetails 
+{
+    margin: 36px 0px 47px 0px;
+}
+
+.tnarrow .errorDetails 
+{
+    margin: 22px 0px 38px 0px;
+}
+
+.diagnosticToggle 
+{    
+    color: #cb5307;
+	font-family:'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI WPC Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+    cursor: pointer;
+    margin-bottom: 15px;
+    outline:none;
+}
+
+.tnarrow .errorFooter 
+{
+    display:none;
+}
+
+.errorFooter
+{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 145px;
+    background-color: #cb5307;
+}
+
+.rtl .errorFooter
+{
+    direction: rtl;
+    text-align: right;
+}
+
+.officeLogo
+{
+    position:absolute;
+    bottom:33px;
+    right: 45px;
+}
+
+.refreshPageButton
+{
+    font-size: 24px;
+    font-family:'Segoe UI', 'Segoe WP', 'Segoe UI WPC', Tahoma, Arial, sans-serif;
+    color: #cb5307; 
+    border: 0px;
+    background-color:transparent;
+    cursor: pointer;
+    padding:0px;
+    margin:0px;
+}
+
+.addToFavouritesButton
+{
+    font-size: 16px;
+    font-family:'Segoe UI', 'Segoe WP', 'Segoe UI WPC', Tahoma, Arial, sans-serif;
+    color: #FFFFFF; 
+    border: 0px;
+    background-color:#0072C6;
+    cursor: pointer;
+    padding:3px;
+    margin:0px;
+}
+
+.refreshPageButton img
+{
+    margin-bottom: -4px;
+}
