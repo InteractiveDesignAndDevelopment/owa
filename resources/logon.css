@@ -1,6 +1,6 @@
 /*Copyright (c) 2003-2006 Microsoft Corporation.  All rights reserved.*/
 
-body.rtl 
+body.rtl
 {
 	text-align:right;
 	direction:rtl;
@@ -14,7 +14,7 @@ body, .mouse, .twide, .tnarrow, form
 
 }
 
-.mouse, .twide 
+.mouse, .twide
 {
     min-width: 650px; /* min iPad1 dimension */
     min-height: 650px;
@@ -25,7 +25,7 @@ body, .mouse, .twide, .tnarrow, form
     right:0px;
 }
 
-.sidebar 
+.sidebar
 {
     background-color:#cb5307;
 }
@@ -51,7 +51,7 @@ body, .mouse, .twide, .tnarrow, form
     text-align:left     /* Logo aligns left for both ltr & rtl */
 }
 
-.tnarrow .owaLogo 
+.tnarrow .owaLogo
 {
     display: none;
 }
@@ -61,13 +61,13 @@ body, .mouse, .twide, .tnarrow, form
     display: none;
 }
 
-.logonDiv 
-{ 
+.logonDiv
+{
 	text-align:left;
 }
 
-.rtl .logonDiv 
-{ 
+.rtl .logonDiv
+{
 	text-align:right;
 }
 
@@ -127,7 +127,7 @@ input::-webkit-input-placeholder
     color: #98A3A6;
 }
 
-input:-moz-placeholder 
+input:-moz-placeholder
 {
     font-size:16px;
     color: #98A3A6;
@@ -167,7 +167,7 @@ input:-moz-placeholder
     -webkit-box-sizing: content-box;
 }
 
-.mouse .signInInputText 
+.mouse .signInInputText
 {
     height: 22px;
     font-size: 12px;
@@ -215,14 +215,14 @@ input:-moz-placeholder
 table#tblMain
 {
 	margin-top: 48px;
-	padding: 0px; 
+	padding: 0px;
 }
 table.mid
 {
 	width: 385px;
 	border-collapse:collapse;
-	padding: 0px; 
-	color:#444444; 
+	padding: 0px;
+	color:#444444;
 }
 table.tblConn
 {
@@ -238,63 +238,65 @@ td.tdConn
 }
 td#mdLft
 {
-	background: url("lgnleft.gif") repeat-y;
-	width: 15px;
+/* background: url("lgnleft.gif") repeat-y;
+	 width: 15px;*/
 }
 td#mdRt
 {
+/*
 	background: url("lgnright.gif") repeat-y;
 	width: 15px;
+	*/
 }
 td#mdMid
 {
 	padding: 0px 45px;
-	background: #ffffff; 
+	background: #ffffff;
 	vertical-align: top;
 }
 td .txtpad
 {
-	padding: 3px 6px 3px 0px; 
+	padding: 3px 6px 3px 0px;
 }
 .txt
 {
-	padding: 3px; 
+	padding: 3px;
 	height: 2.2em;
 }
 input.btn
 {
 	color: #ffffff;
-	background-color: #eb9c12;
-	border: 0px; 
-	padding: 2px 6px; 
-	margin: 0px 6px; 
+	background-color: #cb5307;
+	border: 0px;
+	padding: 2px 6px;
+	margin: 0px 6px;
 	text-align:center;
 }
 .btnOnFcs
 {
 	color: #ffffff;
-	background-color: #eb9c12;
-	border: 0px; 
-	padding: 2px 6px; 
-	margin: 0px 6px; 
+	background-color: #cb5307;
+	border: 0px;
+	padding: 2px 6px;
+	margin: 0px 6px;
 	text-align:center;
 }
 .btnOnMseOvr
 {
 	color: #ffffff;
-	background-color: #f9b133;
-	border: 0px; 
-	padding: 2px 6px; 
-	margin: 0px 6px; 
+	background-color: #cb5307;
+	border: 0px;
+	padding: 2px 6px;
+	margin: 0px 6px;
 	text-align:center;
 }
 .btnOnMseDwn
 {
 	color: #000000;
-	background-color: #f9b133;
-	border: 0px solid #f9b133;
-	padding: 2px 6px; 
-	margin: 0px 6px; 
+	background-color: #cb5307;
+	border: 0px solid #cb5307;
+	padding: 2px 6px;
+	margin: 0px 6px;
 	text-align:center;
 }
 .nowrap
@@ -303,7 +305,7 @@ input.btn
 }
 hr
 {
-	height: 0px; 
+	height: 0px;
 	visibility: hidden;
 }
 
@@ -325,7 +327,7 @@ hr
 }
 .txt
 {
-	margin: 0px 6px; 
+	margin: 0px 6px;
 }
 .rdo
 {
@@ -337,29 +339,29 @@ body.rtl .rdo
 }
 tr.expl td, tr.wrng td
 {
-	padding: 2px 0px 4px; 
+	padding: 2px 0px 4px;
 }
 tr#trSec td
 {
-	padding: 3px 0px 8px; 
+	padding: 3px 0px 8px;
 }
 /* language page specific styles */
 td#tdLng
 {
-	padding: 12px 0px; 
+	padding: 12px 0px;
 }
 td#tdTz
 {
-	padding: 8px 0px; 
+	padding: 8px 0px;
 }
 select#selTz
 {
-	padding: 0px; 
-	margin: 0px; 
+	padding: 0px;
+	margin: 0px;
 }
 td#tdOptMsg
 {
-	padding: 10px 0px; 
+	padding: 10px 0px;
 }
 td#tdOptChk
 {
@@ -368,7 +370,7 @@ td#tdOptChk
 td#tdOptAcc
 {
 	vertical-align:middle;
-	padding: 0px 0px 0px 3px; 
+	padding: 0px 0px 0px 3px;
 }
 select#selLng
 {
@@ -381,7 +383,7 @@ td#tdMsg
 }
 input#btnCls
 {
-	margin: 3px 6px; 
+	margin: 3px 6px;
 }
 td.lgnTL, td.lgnBL
 {
@@ -389,13 +391,15 @@ td.lgnTL, td.lgnBL
 }
 td.lgnTM
 {
-	background: url("lgntopm.gif") repeat-x;
+/*	background: url("lgntopm.gif") repeat-x;
 	width: 100%;
+	*/
 }
 td.lgnBM
 {
-	background: url("lgnbotm.gif") repeat-x;
+	/*background: url("lgnbotm.gif") repeat-x;
 	width: 100%;
+	*/
 }
 td.lgnTR, td.lgnBR
 {
@@ -403,8 +407,8 @@ td.lgnTR, td.lgnBR
 }
 table.tblLgn
 {
-	padding: 0px; 
-	margin: 0px; 
+	padding: 0px;
+	margin: 0px;
 	border-collapse:collapse;
 	width: 100%;
 }
@@ -463,7 +467,7 @@ table.tblLgn
 	font-size: 29px;
 }
 
-.tnarrow .signInEnter 
+.tnarrow .signInEnter
 {
 	margin-top:2px;
 	font-size: 29px;
@@ -472,7 +476,7 @@ table.tblLgn
 	left: 50%;
 }
 
-.signinbutton 
+.signinbutton
 {
     cursor:pointer;
     display:inline
@@ -489,7 +493,7 @@ table.tblLgn
     margin-right: -8px;
 }
 
-.tnarrow .signinbutton 
+.tnarrow .signinbutton
 {
 	position: relative;
 	float: left;
@@ -503,7 +507,7 @@ table.tblLgn
 	font-family:'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI WPC Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
 }
 
-.mouse .shellDialogueHead 
+.mouse .shellDialogueHead
 {
     line-height: 35px;
     margin-bottom: 10px;
@@ -528,7 +532,7 @@ table.tblLgn
     font-size: 15px;
 }
 
-.headerMsgDiv 
+.headerMsgDiv
 {
     width: 350px;
     margin-bottom: 22px;
@@ -561,7 +565,7 @@ table.tblLgn
 }
 
 .mouse .passwordError
-{    
+{
     margin-top: 10px;
     font-size: 13px;
 }
@@ -596,7 +600,7 @@ input.chk
 
 .imgLnk
 {
-	vertical-align: middle;	
+	vertical-align: middle;
 	line-height:2;
 	margin-top: -2px;
 }
@@ -607,14 +611,14 @@ input.chk
 	padding-right:11px;     /* Needed for RTL, doesnt hurt to add this for LTR as well */
 }
 
-.hidden-submit { 
-    border: 0 none; 
-    height: 0; 
-    width: 0; 
-    padding: 0; 
-    margin: 0; 
-    overflow: hidden; 
-} 
+.hidden-submit {
+    border: 0 none;
+    height: 0;
+    width: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
 
 .officeFooter
 {
