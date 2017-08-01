@@ -9,7 +9,7 @@ body
     font-family:'Segoe UI', 'Segoe WP', 'Segoe UI WPC', Tahoma, Arial, sans-serif;
 }
 
-.mouse, .twide 
+.mouse, .twide
 {
     min-width: 650px; /* min iPad1 dimension */
     min-height: 650px;
@@ -21,13 +21,13 @@ body
 }
 
 .mouse .mainContainer, .twide .mainContainer
-{    
+{
     margin-top:113px;
     position:relative;
 }
 
 .mouse .owaLogo, .twide .owaLogo
-{    
+{
     margin-right:88px;
 }
 
@@ -61,7 +61,7 @@ body
 
 .errorHeader
 {
-    color: #cb5307;
+    color: #c95106;
 	font-family:'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI WPC Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
 }
 
@@ -78,13 +78,13 @@ body
 
 .errorSubHeader
 {
-    color: #cb5307;
+    color: #c95106;
 	font-family:'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI WPC Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
 }
 
 .errorSubHeader2
 {
-    color: #0072C6;
+    color: #b14501;
 	font-family:'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI WPC Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
 }
 
@@ -130,26 +130,26 @@ body
     line-height: 18px;
 }
 
-.mouse .errorDetails, .twide .errorDetails 
+.mouse .errorDetails, .twide .errorDetails
 {
     margin: 36px 0px 47px 0px;
 }
 
-.tnarrow .errorDetails 
+.tnarrow .errorDetails
 {
     margin: 22px 0px 38px 0px;
 }
 
-.diagnosticToggle 
-{    
-    color: #cb5307;
+.diagnosticToggle
+{
+    color: #c95106;
 	font-family:'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI WPC Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
     cursor: pointer;
     margin-bottom: 15px;
     outline:none;
 }
 
-.tnarrow .errorFooter 
+.tnarrow .errorFooter
 {
     display:none;
 }
@@ -161,7 +161,7 @@ body
     left: 0px;
     right: 0px;
     height: 145px;
-    background-color: #cb5307;
+    background-color: #c95106;
 }
 
 .rtl .errorFooter
@@ -181,7 +181,7 @@ body
 {
     font-size: 24px;
     font-family:'Segoe UI', 'Segoe WP', 'Segoe UI WPC', Tahoma, Arial, sans-serif;
-    color: #cb5307; 
+    color: #c95106;
     border: 0px;
     background-color:transparent;
     cursor: pointer;
@@ -193,9 +193,9 @@ body
 {
     font-size: 16px;
     font-family:'Segoe UI', 'Segoe WP', 'Segoe UI WPC', Tahoma, Arial, sans-serif;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     border: 0px;
-    background-color:#0072C6;
+    background-color:#c95106;
     cursor: pointer;
     padding:3px;
     margin:0px;
